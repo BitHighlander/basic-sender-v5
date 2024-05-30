@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "cross-env FORCE_COLOR=1 next dev",
+    "dev-build": "pnpm run build && pnpm run start",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -27,7 +28,6 @@
     "@coinmasters/pioneer-lib": "latest",
     "@coinmasters/pioneer-react": "latest",
     "@coinmasters/types": "latest",
-    "@coinmasters/wallet-keepkey": "latest",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@next/bundle-analyzer": "^14.2.3",

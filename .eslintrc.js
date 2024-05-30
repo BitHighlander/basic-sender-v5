@@ -8,7 +8,7 @@ module.exports = {
     "react-app",
     "react-app/jest",
     "plugin:storybook/recommended",
-    "plugin:tailwindcss/recommended",
+    // "plugin:tailwindcss/recommended",
   ],
   parserOptions: {
     babelOptions: {

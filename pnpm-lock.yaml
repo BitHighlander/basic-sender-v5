@@ -10,7 +10,7 @@ dependencies:
     version: 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.3)(framer-motion@11.2.9)(react-dom@18.3.1)(react@18.3.1)
   '@coinmasters/pioneer-lib':
     specifier: latest
-    version: 0.1.23(@babel/core@7.24.6)(@chakra-ui/system@2.6.2)(@swc/core@1.5.7)(@types/node@20.12.13)(@types/react@18.3.3)
+    version: 0.1.25(@babel/core@7.24.6)(@chakra-ui/system@2.6.2)(@swc/core@1.5.7)(@types/node@20.12.13)(@types/react@18.3.3)
   '@coinmasters/pioneer-react':
     specifier: latest
     version: 0.7.17(@swc/core@1.5.7)(ramda@0.30.0)
@@ -2946,8 +2946,8 @@ packages:
       idb: 8.0.0
     dev: false
 
-  /@coinmasters/pioneer-lib@0.1.23(@babel/core@7.24.6)(@chakra-ui/system@2.6.2)(@swc/core@1.5.7)(@types/node@20.12.13)(@types/react@18.3.3):
-    resolution: {integrity: sha512-b6Ldp4/OkvzJ1aIej0ftJCMTlhCKxgzQpmjU2wrPsotryBIeo9H+q4XOojpfJlsVdXDIZhwlC/FhpWkQY7FeYw==}
+  /@coinmasters/pioneer-lib@0.1.25(@babel/core@7.24.6)(@chakra-ui/system@2.6.2)(@swc/core@1.5.7)(@types/node@20.12.13)(@types/react@18.3.3):
+    resolution: {integrity: sha512-2PrkQrI1keVUv3xtYRbS/oTK+uIq7asjD6WaEmWpSP70Fklw+LwGIEMhsxlGacqunCUcIyWpWn2Hu7fDhJqKkg==}
     dependencies:
       '@chakra-ui/icons': 2.1.1(@chakra-ui/system@2.6.2)(react@18.3.1)
       '@chakra-ui/next-js': 2.2.0(@chakra-ui/react@2.8.2)(@emotion/react@11.11.4)(next@14.1.0)(react@18.3.1)

@@ -7,22 +7,22 @@ export const useOnStartApp = () => {
 
     const onStartApp = async () => {
         try {
-            let walletsVerbose = [];
-            const { keepkeyWallet } = await import("@coinmasters/wallet-keepkey");
+            let walletsVerbose:any = [];
+            // const { keepkeyWallet } = await import("@coinmasters/wallet-keepkey");
 
             const pioneerSetup: any = {
                 appName: "Pioneer Template",
                 appIcon: "https://pioneers.dev/coins/pioneerMan.png",
             };
 
-            const walletKeepKey = {
-                type: WalletOption.KEEPKEY,
-                icon: "https://pioneers.dev/coins/keepkey.png",
-                chains: availableChainsByWallet[WalletOption.KEEPKEY],
-                wallet: keepkeyWallet,
-                status: "offline",
-                isConnected: false,
-            };
+            // const walletKeepKey = {
+            //     type: WalletOption.KEEPKEY,
+            //     icon: "https://pioneers.dev/coins/keepkey.png",
+            //     chains: availableChainsByWallet[WalletOption.KEEPKEY],
+            //     wallet: keepkeyWallet,
+            //     status: "offline",
+            //     isConnected: false,
+            // };
 
             //ShapeShift metamask wallet
             // const { metamaskWallet } = await import("@coinmasters/wallet-metamask");
@@ -114,7 +114,7 @@ export const useOnStartApp = () => {
             // };
             // walletsVerbose.push(walletXDefi);
 
-            walletsVerbose.push(walletKeepKey);
+            // walletsVerbose.push(walletKeepKey);
             onStart(walletsVerbose, pioneerSetup);
         } catch (e) {
             console.error("Failed to start app!", e);
