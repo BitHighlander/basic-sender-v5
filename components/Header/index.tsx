@@ -1,4 +1,4 @@
-import { Flex, Box, Heading, HStack, Link, Container } from "@chakra-ui/react";
+import { Box, Container, Flex, Heading, HStack, Link } from "@chakra-ui/react";
 import {
     Pioneer,
 } from '@coinmasters/pioneer-lib';

@@ -1,22 +1,22 @@
 'use client';
+import { Box, Button, Container, Flex, Heading, HStack, IconButton, Text, VStack } from "@chakra-ui/react";
+import {
+    Amount,
+    Asset,
+    Assets,
+    Basic,
+    Classic,
+    Pioneer,
+    Portfolio,
+    Swap,
+    Transfer,
+} from '@coinmasters/pioneer-lib';
+import { usePioneer } from "@coinmasters/pioneer-react";
+import { useEffect, useState } from 'react';
+import { FaBriefcase, FaCoins } from 'react-icons/fa';
 import { LP_GRID_ITEMS } from "lp-items";
 import Header from "../components/Header";
-import { Button, Box, Container, Flex, Heading, Text, VStack, HStack, IconButton } from "@chakra-ui/react";
 import { useOnStartApp } from "../utils/onStart";
-import { useState, useEffect } from 'react';
-import { usePioneer } from "@coinmasters/pioneer-react";
-import {
-    Pioneer,
-    Basic,
-    Portfolio,
-    Transfer,
-    Assets,
-    Classic,
-    Asset,
-    Amount,
-    Swap,
-} from '@coinmasters/pioneer-lib';
-import { FaBriefcase, FaCoins } from 'react-icons/fa';
 
 export default function App() {
     const onStartApp = useOnStartApp();

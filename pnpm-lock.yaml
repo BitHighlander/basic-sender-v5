@@ -10,16 +10,13 @@ dependencies:
     version: 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.3)(framer-motion@11.2.9)(react-dom@18.3.1)(react@18.3.1)
   '@coinmasters/pioneer-lib':
     specifier: latest
-    version: 0.1.25(@babel/core@7.24.6)(@chakra-ui/system@2.6.2)(@swc/core@1.5.7)(@types/node@20.12.13)(@types/react@18.3.3)
+    version: 0.1.26(@babel/core@7.24.6)(@chakra-ui/system@2.6.2)(@swc/core@1.5.7)(@types/node@20.12.13)(@types/react@18.3.3)
   '@coinmasters/pioneer-react':
     specifier: latest
-    version: 0.7.17(@swc/core@1.5.7)(ramda@0.30.0)
+    version: 0.7.18(@swc/core@1.5.7)(ramda@0.30.0)
   '@coinmasters/types':
     specifier: latest
-    version: 4.7.17
-  '@coinmasters/wallet-keepkey':
-    specifier: latest
-    version: 13.0.17(@coinmasters/toolbox-cosmos@11.0.17)(@coinmasters/toolbox-evm@11.0.17)(@coinmasters/toolbox-ripple@11.0.17)(@coinmasters/toolbox-utxo@11.0.17)(@keepkey/keepkey-sdk@0.2.57)(@swc/core@1.5.7)(@types/node@20.12.13)(bitcoinjs-lib@5.2.0)
+    version: 4.7.18
   '@emotion/react':
     specifier: ^11.11.4
     version: 11.11.4(@types/react@18.3.3)(react@18.3.1)
@@ -2898,29 +2895,29 @@ packages:
       react: 18.3.1
     dev: false
 
-  /@coinmasters/api@3.7.17:
-    resolution: {integrity: sha512-H70DZ85GbUlbeiwpmS5F0WVbL4NeldM4glMsJLlR+lat0+556ac2PrSKCprW9cG3X3Vx6LYGFr2GQTWM4cFb3g==}
+  /@coinmasters/api@3.7.18:
+    resolution: {integrity: sha512-SiGdRtcxX25hxIE+qtH01EJ5Eal5719g4Sp+a+opysdzMzVVAWaZ1lHomGobFx15wZfIP28Z4UyH9PPEgusnCw==}
     dependencies:
-      '@coinmasters/types': 4.7.17
+      '@coinmasters/types': 4.7.18
       ky: 1.1.3
     dev: false
 
-  /@coinmasters/core@11.0.17(@coinmasters/api@3.7.17)(@coinmasters/tokens@3.7.17)(@coinmasters/toolbox-cosmos@11.0.17)(@coinmasters/toolbox-evm@11.0.17)(@coinmasters/toolbox-utxo@11.0.17)(@swc/core@1.5.7)(@types/node@18.15.13):
-    resolution: {integrity: sha512-8U07X8lT43OXSysu1DozHTzLFglAdinmLS1nvMI0fepAVu4C/Vi2E8p5emJnLZ9QkIc7AInqHrP0Y7Dg+ajE+g==}
+  /@coinmasters/core@11.0.18(@coinmasters/api@3.7.18)(@coinmasters/tokens@3.7.18)(@coinmasters/toolbox-cosmos@11.0.18)(@coinmasters/toolbox-evm@11.0.18)(@coinmasters/toolbox-utxo@11.0.18)(@swc/core@1.5.7)(@types/node@18.15.13):
+    resolution: {integrity: sha512-2iqRJEYrr/r/sB5ZwQ1Ctz3rKA1l/GHKb06XclrasnikDPSW5AyQp9wu3W8FzvAyH1F65fZD7AC2DNMWXbkmOA==}
     peerDependencies:
-      '@coinmasters/api': 3.7.17
-      '@coinmasters/tokens': 3.7.17
-      '@coinmasters/toolbox-cosmos': 11.0.17
-      '@coinmasters/toolbox-evm': 11.0.17
-      '@coinmasters/toolbox-utxo': 11.0.17
+      '@coinmasters/api': 3.7.18
+      '@coinmasters/tokens': 3.7.18
+      '@coinmasters/toolbox-cosmos': 11.0.18
+      '@coinmasters/toolbox-evm': 11.0.18
+      '@coinmasters/toolbox-utxo': 11.0.18
     dependencies:
-      '@coinmasters/api': 3.7.17
-      '@coinmasters/helpers': 11.0.17(@coinmasters/tokens@3.7.17)(@coinmasters/types@4.7.17)
-      '@coinmasters/tokens': 3.7.17
-      '@coinmasters/toolbox-cosmos': 11.0.17(@coinmasters/helpers@11.0.17)
-      '@coinmasters/toolbox-evm': 11.0.17(@coinmasters/helpers@11.0.17)
-      '@coinmasters/toolbox-utxo': 11.0.17(@coinmasters/helpers@11.0.17)
-      '@coinmasters/types': 4.7.17
+      '@coinmasters/api': 3.7.18
+      '@coinmasters/helpers': 11.0.18(@coinmasters/tokens@3.7.18)(@coinmasters/types@4.7.18)
+      '@coinmasters/tokens': 3.7.18
+      '@coinmasters/toolbox-cosmos': 11.0.18(@coinmasters/helpers@11.0.18)
+      '@coinmasters/toolbox-evm': 11.0.18(@coinmasters/helpers@11.0.18)
+      '@coinmasters/toolbox-utxo': 11.0.18(@coinmasters/helpers@11.0.18)
+      '@coinmasters/types': 4.7.18
       '@pioneer-platform/loggerdog': 8.3.1(@swc/core@1.5.7)(@types/node@18.15.13)
       '@pioneer-platform/pioneer-caip': 9.2.26
     transitivePeerDependencies:
@@ -2929,25 +2926,25 @@ packages:
       - '@types/node'
     dev: false
 
-  /@coinmasters/helpers@11.0.17(@coinmasters/tokens@3.7.17)(@coinmasters/types@4.7.17):
-    resolution: {integrity: sha512-yVuPYxmj2lSHUOwJJeStm9eL4fBNSfQVp1exBw6NCKP6iTTZkOLKocIFOXEMMDQoVBmsie7B75U5bwcMAaDVvA==}
+  /@coinmasters/helpers@11.0.18(@coinmasters/tokens@3.7.18)(@coinmasters/types@4.7.18):
+    resolution: {integrity: sha512-M5HQSIUxP1OMg9uGrex136zVM/2rA0u09CNIkCmG1ffpJtZGq5b500DDRJ1PVmOwM5nZABwUxhr2AASMmDkaxA==}
     peerDependencies:
-      '@coinmasters/tokens': 3.7.17
-      '@coinmasters/types': 4.7.17
+      '@coinmasters/tokens': 3.7.18
+      '@coinmasters/types': 4.7.18
     dependencies:
-      '@coinmasters/tokens': 3.7.17
-      '@coinmasters/types': 4.7.17
+      '@coinmasters/tokens': 3.7.18
+      '@coinmasters/types': 4.7.18
       ky: 1.1.3
     dev: false
 
-  /@coinmasters/pioneer-db@4.7.16:
-    resolution: {integrity: sha512-JDMVaYsLYI0v5+tFOxB+1uR3fOJ/LMwUM/1aF71K/UAmyrUyN4HtDlVDT2QKfR5GJgBDd0mFYBGvki3W5coy+w==}
+  /@coinmasters/pioneer-db@4.7.17:
+    resolution: {integrity: sha512-L2Smm2wn15K12XUwSDbi8wwMXdNekcK3pbtYu8kgtqe7aFZffEhDlsReXLG3tRL4TMNNZHaDJ/u8fYlAi1ffHg==}
     dependencies:
       idb: 8.0.0
     dev: false
 
-  /@coinmasters/pioneer-lib@0.1.25(@babel/core@7.24.6)(@chakra-ui/system@2.6.2)(@swc/core@1.5.7)(@types/node@20.12.13)(@types/react@18.3.3):
-    resolution: {integrity: sha512-2PrkQrI1keVUv3xtYRbS/oTK+uIq7asjD6WaEmWpSP70Fklw+LwGIEMhsxlGacqunCUcIyWpWn2Hu7fDhJqKkg==}
+  /@coinmasters/pioneer-lib@0.1.26(@babel/core@7.24.6)(@chakra-ui/system@2.6.2)(@swc/core@1.5.7)(@types/node@20.12.13)(@types/react@18.3.3):
+    resolution: {integrity: sha512-wAVtm0Ci3L09pLHRblwD/bhfpByiTVjtY6oqdA9geb+KaCc4NlNCe4AVyRTHOu3lvfIujXSWeC/lOVU+CDV0Dg==}
     dependencies:
       '@chakra-ui/icons': 2.1.1(@chakra-ui/system@2.6.2)(react@18.3.1)
       '@chakra-ui/next-js': 2.2.0(@chakra-ui/react@2.8.2)(@emotion/react@11.11.4)(next@14.1.0)(react@18.3.1)
@@ -2985,12 +2982,12 @@ packages:
       - sass
     dev: false
 
-  /@coinmasters/pioneer-react@0.7.17(@swc/core@1.5.7)(ramda@0.30.0):
-    resolution: {integrity: sha512-tgSnbUfsoSGHQXp2MlcD6hO2hU4DCeVdom5n5FxaK/0iLgkLeT011dcSrKCtj+obwoh5VOAYwgrpE+JRucTwpQ==}
+  /@coinmasters/pioneer-react@0.7.18(@swc/core@1.5.7)(ramda@0.30.0):
+    resolution: {integrity: sha512-joz9T7TXiJC+HryyO88R5TYigu4sIwtQiVZfqePUkNQzkBW2BHJ36GtCPyV9E+to0G33ae48mR9GKZYaiy3Clg==}
     dependencies:
-      '@coinmasters/pioneer-db': 4.7.16
-      '@coinmasters/pioneer-sdk': 4.7.17(@swc/core@1.5.7)(@types/node@18.15.13)(ramda@0.30.0)
-      '@coinmasters/types': 4.7.17
+      '@coinmasters/pioneer-db': 4.7.17
+      '@coinmasters/pioneer-sdk': 4.7.18(@swc/core@1.5.7)(@types/node@18.15.13)(ramda@0.30.0)
+      '@coinmasters/types': 4.7.18
       '@pioneer-platform/pioneer-caip': 9.2.26
       '@pioneer-platform/pioneer-coins': 9.2.21(@swc/core@1.5.7)(@types/node@18.15.13)
       '@types/node': 18.15.13
@@ -3026,18 +3023,18 @@ packages:
       - webdriverio
     dev: false
 
-  /@coinmasters/pioneer-sdk@4.7.17(@swc/core@1.5.7)(@types/node@18.15.13)(ramda@0.30.0):
-    resolution: {integrity: sha512-HtF9UmB9JiFZP8hmWPM2ulDXvH2dZkfEXvZAho3TOgu/0z5dQ7CxLk2PgF0WZgtb5iNv9nUrf4eurHwZr+6SPQ==}
+  /@coinmasters/pioneer-sdk@4.7.18(@swc/core@1.5.7)(@types/node@18.15.13)(ramda@0.30.0):
+    resolution: {integrity: sha512-ZmL8pmt3TJV1ZV4W/QKsFMzcmhxT5JVGtKmy2PvXMbOOzqIroVtkQDGIZA4lsog9gdXIajxxP0d6Dtawcz6kiQ==}
     dependencies:
-      '@coinmasters/api': 3.7.17
-      '@coinmasters/core': 11.0.17(@coinmasters/api@3.7.17)(@coinmasters/tokens@3.7.17)(@coinmasters/toolbox-cosmos@11.0.17)(@coinmasters/toolbox-evm@11.0.17)(@coinmasters/toolbox-utxo@11.0.17)(@swc/core@1.5.7)(@types/node@18.15.13)
-      '@coinmasters/helpers': 11.0.17(@coinmasters/tokens@3.7.17)(@coinmasters/types@4.7.17)
-      '@coinmasters/tokens': 3.7.17
-      '@coinmasters/toolbox-cosmos': 11.0.17(@coinmasters/helpers@11.0.17)
-      '@coinmasters/toolbox-evm': 11.0.17(@coinmasters/helpers@11.0.17)
-      '@coinmasters/toolbox-ripple': 11.0.17(@coinmasters/helpers@11.0.17)
-      '@coinmasters/toolbox-utxo': 11.0.17(@coinmasters/helpers@11.0.17)
-      '@coinmasters/types': 4.7.17
+      '@coinmasters/api': 3.7.18
+      '@coinmasters/core': 11.0.18(@coinmasters/api@3.7.18)(@coinmasters/tokens@3.7.18)(@coinmasters/toolbox-cosmos@11.0.18)(@coinmasters/toolbox-evm@11.0.18)(@coinmasters/toolbox-utxo@11.0.18)(@swc/core@1.5.7)(@types/node@18.15.13)
+      '@coinmasters/helpers': 11.0.18(@coinmasters/tokens@3.7.18)(@coinmasters/types@4.7.18)
+      '@coinmasters/tokens': 3.7.18
+      '@coinmasters/toolbox-cosmos': 11.0.18(@coinmasters/helpers@11.0.18)
+      '@coinmasters/toolbox-evm': 11.0.18(@coinmasters/helpers@11.0.18)
+      '@coinmasters/toolbox-ripple': 11.0.18(@coinmasters/helpers@11.0.18)
+      '@coinmasters/toolbox-utxo': 11.0.18(@coinmasters/helpers@11.0.18)
+      '@coinmasters/types': 4.7.18
       '@pioneer-platform/loggerdog': 8.3.1(@swc/core@1.5.7)(@types/node@18.15.13)
       '@pioneer-platform/pioneer-caip': 9.2.26
       '@pioneer-platform/pioneer-client': 9.2.5(ramda@0.30.0)
@@ -3053,18 +3050,18 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@coinmasters/tokens@3.7.17:
-    resolution: {integrity: sha512-sX+D2J90mzMTVJTNF5Dk9sXY+uiGLsQnEOFtFdfivqvb2cFZFhr3SuF1RehpdHva3I/61uzMsCkOPkojWWSQTg==}
+  /@coinmasters/tokens@3.7.18:
+    resolution: {integrity: sha512-R+8EQRAxLoCKkCfD2X+jK61G0FjSj0GTOxIUM0Lj4vc3JDekOE2lWZcrevoH08Om6RL543CxPTKw+0Pc5H27DA==}
     dev: false
 
-  /@coinmasters/toolbox-cosmos@11.0.17(@coinmasters/helpers@11.0.17):
-    resolution: {integrity: sha512-VnY88BSR5uBilGRbQ01tNIkatnX55U/Cnen9tT2GwyMqF4tg4nQkXDn1tmsjpejE2zq12jLKRWHIL9ZV8GPg4g==}
+  /@coinmasters/toolbox-cosmos@11.0.18(@coinmasters/helpers@11.0.18):
+    resolution: {integrity: sha512-3enMfxcvQQEI5KEoyPL0hHyPgDGwXQn8/jB+prUdC0Gq4cIwHTLwO7S2mUBt+Jo/nEa4BZKqS8tbY9DWz5rE4A==}
     peerDependencies:
-      '@coinmasters/helpers': 11.0.17
+      '@coinmasters/helpers': 11.0.18
     dependencies:
-      '@coinmasters/api': 3.7.17
-      '@coinmasters/helpers': 11.0.17(@coinmasters/tokens@3.7.17)(@coinmasters/types@4.7.17)
-      '@coinmasters/types': 4.7.17
+      '@coinmasters/api': 3.7.18
+      '@coinmasters/helpers': 11.0.18(@coinmasters/tokens@3.7.18)(@coinmasters/types@4.7.18)
+      '@coinmasters/types': 4.7.18
       '@cosmjs/amino': 0.32.0
       '@cosmjs/crypto': 0.32.0
       '@cosmjs/encoding': 0.32.0
@@ -3086,27 +3083,27 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@coinmasters/toolbox-evm@11.0.17(@coinmasters/helpers@11.0.17):
-    resolution: {integrity: sha512-kKYVgc0l2M9zDTP951kP414HFmJChxnKPWWpLFE+TCRpClR6Q/YEa9IVy8lr8Y057GRzSzgwNaSzdAHmHEgEWw==}
+  /@coinmasters/toolbox-evm@11.0.18(@coinmasters/helpers@11.0.18):
+    resolution: {integrity: sha512-NGxFjtqM58mqelQJAsWdiRDh1tZn4QK3nHIMfOfp+DVEmn69qCOoDu4PBHoKVXCzevuAHKcSzm94QKhQ8T7JVg==}
     peerDependencies:
-      '@coinmasters/helpers': 11.0.17
+      '@coinmasters/helpers': 11.0.18
     dependencies:
-      '@coinmasters/helpers': 11.0.17(@coinmasters/tokens@3.7.17)(@coinmasters/types@4.7.17)
-      '@coinmasters/types': 4.7.17
+      '@coinmasters/helpers': 11.0.18(@coinmasters/tokens@3.7.18)(@coinmasters/types@4.7.18)
+      '@coinmasters/types': 4.7.18
       ethers: 6.9.0
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
     dev: false
 
-  /@coinmasters/toolbox-ripple@11.0.17(@coinmasters/helpers@11.0.17):
-    resolution: {integrity: sha512-UK30rvlvtrD3gUEoechzs7NgnGOX2G7w/QJ+eXPjiERjFHOEMiQPFi7aGaw418i2DrtpEEn8oIPZeYVyZLjVaw==}
+  /@coinmasters/toolbox-ripple@11.0.18(@coinmasters/helpers@11.0.18):
+    resolution: {integrity: sha512-lq2i0jnc3D7+8JOF3OlCUPkBl7Uv64ngWedabtHCyV5I7ut47GR4I2km1iiP7KH3/ZU8MOobj4ZGI5DqD6DzXQ==}
     peerDependencies:
-      '@coinmasters/helpers': 11.0.17
+      '@coinmasters/helpers': 11.0.18
     dependencies:
-      '@coinmasters/api': 3.7.17
-      '@coinmasters/helpers': 11.0.17(@coinmasters/tokens@3.7.17)(@coinmasters/types@4.7.17)
-      '@coinmasters/types': 4.7.17
+      '@coinmasters/api': 3.7.18
+      '@coinmasters/helpers': 11.0.18(@coinmasters/tokens@3.7.18)(@coinmasters/types@4.7.18)
+      '@coinmasters/types': 4.7.18
       '@cosmjs/amino': 0.31.1
       '@cosmjs/crypto': 0.31.1
       '@cosmjs/encoding': 0.31.1
@@ -3128,13 +3125,13 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@coinmasters/toolbox-utxo@11.0.17(@coinmasters/helpers@11.0.17):
-    resolution: {integrity: sha512-jN7xXlmG9w0rJwe5ZFoDfQFht1UWKN5str4fjhEI/q9RbeF+R7NGMqKt/b2+k/AYlKgUZTsIPoaPfOoqdrXBWg==}
+  /@coinmasters/toolbox-utxo@11.0.18(@coinmasters/helpers@11.0.18):
+    resolution: {integrity: sha512-P58k3eHFb9b6fOu0Kyw60RzAWama4jtONg2ar6BzgR49fVCPMQ3XNZ5MexJxBjiCDYc9so3KGNTnXBwYmZwikA==}
     peerDependencies:
-      '@coinmasters/helpers': 11.0.17
+      '@coinmasters/helpers': 11.0.18
     dependencies:
-      '@coinmasters/helpers': 11.0.17(@coinmasters/tokens@3.7.17)(@coinmasters/types@4.7.17)
-      '@coinmasters/types': 4.7.17
+      '@coinmasters/helpers': 11.0.18(@coinmasters/tokens@3.7.18)(@coinmasters/types@4.7.18)
+      '@coinmasters/types': 4.7.18
       '@psf/bitcoincashjs-lib': 4.0.3
       '@scure/bip32': 1.3.2
       '@scure/bip39': 1.2.1
@@ -3146,43 +3143,8 @@ packages:
       tiny-secp256k1: 1.1.6
     dev: false
 
-  /@coinmasters/types@4.7.17:
-    resolution: {integrity: sha512-QZZqmAva2yv23EZ+BkMzMDnIHWNL6WIiU5U1Ash+uWS7PFEk0aa3DJxGac9Y6AgM48bMrauo3iW4QcFH0nwQ8Q==}
-    dev: false
-
-  /@coinmasters/wallet-keepkey@13.0.17(@coinmasters/toolbox-cosmos@11.0.17)(@coinmasters/toolbox-evm@11.0.17)(@coinmasters/toolbox-ripple@11.0.17)(@coinmasters/toolbox-utxo@11.0.17)(@keepkey/keepkey-sdk@0.2.57)(@swc/core@1.5.7)(@types/node@20.12.13)(bitcoinjs-lib@5.2.0):
-    resolution: {integrity: sha512-YN+kfzcDzCs6fn9NT+gZiBpMM8fa206/fx+NmDyrTG8xpBsV53a/Mli0IrZE/gvUY9wesghMecGD+3D3e2I4gw==}
-    peerDependencies:
-      '@coinmasters/toolbox-cosmos': 11.0.17
-      '@coinmasters/toolbox-evm': 11.0.17
-      '@coinmasters/toolbox-ripple': 11.0.17
-      '@coinmasters/toolbox-utxo': 11.0.17
-      '@keepkey/keepkey-sdk': ^0.2.57
-      bitcoinjs-lib: 5.2.0
-    dependencies:
-      '@coinmasters/tokens': 3.7.17
-      '@coinmasters/toolbox-cosmos': 11.0.17(@coinmasters/helpers@11.0.17)
-      '@coinmasters/toolbox-evm': 11.0.17(@coinmasters/helpers@11.0.17)
-      '@coinmasters/toolbox-ripple': 11.0.17(@coinmasters/helpers@11.0.17)
-      '@coinmasters/toolbox-utxo': 11.0.17(@coinmasters/helpers@11.0.17)
-      '@coinmasters/types': 4.7.17
-      '@cosmjs/math': 0.32.3
-      '@cosmjs/stargate': 0.31.1
-      '@keepkey/keepkey-sdk': 0.2.57
-      '@pioneer-platform/loggerdog': 8.3.1(@swc/core@1.5.7)(@types/node@20.12.13)
-      '@pioneer-platform/pioneer-caip': 9.2.26
-      '@pioneer-platform/pioneer-coins': 9.2.21(@swc/core@1.5.7)(@types/node@20.12.13)
-      '@types/bchaddrjs': 0.4.0
-      bchaddrjs: 0.5.2
-      bitcoinjs-lib: 5.2.0
-      ethers: 6.12.1
-    transitivePeerDependencies:
-      - '@swc/core'
-      - '@swc/wasm'
-      - '@types/node'
-      - bufferutil
-      - debug
-      - utf-8-validate
+  /@coinmasters/types@4.7.18:
+    resolution: {integrity: sha512-myT3tZBk7vomAwyZ3oRGTYz8bIXHx2cHixgVIZo6XeiLZmOo9Bk5j6uTFSCQ1WgYrTbtgzpt/MfyQ3jVkrmxhw==}
     dev: false
 
   /@colors/colors@1.5.0:
@@ -3204,15 +3166,6 @@ packages:
       '@cosmjs/crypto': 0.31.1
       '@cosmjs/encoding': 0.31.1
       '@cosmjs/math': 0.31.1
-      '@cosmjs/utils': 0.31.3
-    dev: false
-
-  /@cosmjs/amino@0.31.3:
-    resolution: {integrity: sha512-36emtUq895sPRX8PTSOnG+lhJDCVyIcE0Tr5ct59sUbgQiI14y43vj/4WAlJ/utSOxy+Zhj9wxcs4AZfu0BHsw==}
-    dependencies:
-      '@cosmjs/crypto': 0.31.3
-      '@cosmjs/encoding': 0.31.3
-      '@cosmjs/math': 0.31.3
       '@cosmjs/utils': 0.31.3
     dev: false
 
@@ -3245,7 +3198,7 @@ packages:
       '@cosmjs/utils': 0.31.3
       '@noble/hashes': 1.4.0
       bn.js: 5.2.1
-      elliptic: 6.5.5
+      elliptic: 6.5.4
       libsodium-wrappers-sumo: 0.7.13
     dev: false
 
@@ -3355,18 +3308,6 @@ packages:
       long: 4.0.0
     dev: false
 
-  /@cosmjs/proto-signing@0.31.3:
-    resolution: {integrity: sha512-24+10/cGl6lLS4VCrGTCJeDRPQTn1K5JfknzXzDIHOx8THR31JxA7/HV5eWGHqWgAbudA7ccdSvEK08lEHHtLA==}
-    dependencies:
-      '@cosmjs/amino': 0.31.3
-      '@cosmjs/crypto': 0.31.3
-      '@cosmjs/encoding': 0.31.3
-      '@cosmjs/math': 0.31.3
-      '@cosmjs/utils': 0.31.3
-      cosmjs-types: 0.8.0
-      long: 4.0.0
-    dev: false
-
   /@cosmjs/proto-signing@0.32.0:
     resolution: {integrity: sha512-9401CI0U5rvKMmYrEN4DAl7wvRd5PwfOTPgxoee+O0d3LzK4FUbTjnNIM7DeUi0zaQw/qU3vSbA3ZcMqPifSbQ==}
     dependencies:
@@ -3406,10 +3347,10 @@ packages:
     resolution: {integrity: sha512-TqOJZYOH5W3sZIjR6949GfjhGXO3kSHQ3/KmE+SuKyMMmQ5fFZ45beawiRtVF0/CJg5RyPFyFGJKhb1Xxv3Lcg==}
     dependencies:
       '@confio/ics23': 0.6.8
-      '@cosmjs/amino': 0.31.3
-      '@cosmjs/encoding': 0.31.3
-      '@cosmjs/math': 0.31.3
-      '@cosmjs/proto-signing': 0.31.3
+      '@cosmjs/amino': 0.31.1
+      '@cosmjs/encoding': 0.31.1
+      '@cosmjs/math': 0.31.1
+      '@cosmjs/proto-signing': 0.31.1
       '@cosmjs/stream': 0.31.3
       '@cosmjs/tendermint-rpc': 0.31.3
       '@cosmjs/utils': 0.31.3
@@ -4199,10 +4140,6 @@ packages:
   /@juggle/resize-observer@3.4.0:
     resolution: {integrity: sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==}
     dev: true
-
-  /@keepkey/keepkey-sdk@0.2.57:
-    resolution: {integrity: sha512-II6FT7CDuvp0LxIrwMyGRNvR5bxxxtgVzNrHvDrlJj1c+tzF3yK7Mkgz+rUO/KKhm3NSgRaEUVdph8sgj6XYng==}
-    dev: false
 
   /@kurkle/color@0.3.2:
     resolution: {integrity: sha512-fuscdXJ9G1qb7W8VdHi+IwRqij3lBkosAm4ydQtEmbY58OzHXqQhvlxqEkoz0yssNVn38bcpRWgA9PP+OGoisw==}
@@ -7720,10 +7657,6 @@ packages:
       '@babel/types': 7.24.6
     dev: true
 
-  /@types/bchaddrjs@0.4.0:
-    resolution: {integrity: sha512-Nvv3haWpXNWYfKasVoEp3VBgVsBTLTh45anhHUN8xVUPhn4ErU3FPS5AEcZtACWc5ICGUxbaiLTWOnwDkwYF1Q==}
-    dev: false
-
   /@types/body-parser@1.19.5:
     resolution: {integrity: sha512-fB3Zu92ucau0iQ0JMCFQE7b/dv8Ot07NI3KaZIkIUNXq82k4eBAqUaneXfleGY9JWskeS9y+u0nXMyspcuQrCg==}
     dependencies:
@@ -7899,10 +7832,6 @@ packages:
       '@types/node': 20.12.13
       form-data: 4.0.0
     dev: true
-
-  /@types/node@10.12.18:
-    resolution: {integrity: sha512-fh+pAqt4xRzPfqA6eh3Z2y6fyZavRIumvjhaCL753+TVkGKGhpPeyrJG2JftD0T9q4GF00KjefsQ+PQNDdWQaQ==}
-    dev: false
 
   /@types/node@18.15.13:
     resolution: {integrity: sha512-N+0kuo9KgrUQ1Sn/ifDXsvg0TTleP7rIy4zOBGECxAljqvqfqpTfzx0Q1NUedOixRMBfe2Whhb056a42cWs26Q==}
@@ -9287,48 +9216,10 @@ packages:
     engines: {node: '>=8.0.0'}
     dev: false
 
-  /bip32@2.0.6:
-    resolution: {integrity: sha512-HpV5OMLLGTjSVblmrtYRfFFKuQB+GArM0+XP8HGWfJ5vxYBqo+DesvJwOdC2WJ3bCkZShGf0QIfoIpeomVzVdA==}
-    engines: {node: '>=6.0.0'}
-    dependencies:
-      '@types/node': 10.12.18
-      bs58check: 2.1.2
-      create-hash: 1.2.0
-      create-hmac: 1.1.7
-      tiny-secp256k1: 1.1.6
-      typeforce: 1.18.0
-      wif: 2.0.6
-    dev: false
-
   /bip66@1.1.5:
     resolution: {integrity: sha512-nemMHz95EmS38a26XbbdxIYj5csHd3RMP3H5bwQknX0WYHF01qhpufP42mLOwVICuH2JmhIhXiWs89MfUGL7Xw==}
     dependencies:
       safe-buffer: 5.2.1
-    dev: false
-
-  /bitcoin-ops@1.4.1:
-    resolution: {integrity: sha512-pef6gxZFztEhaE9RY9HmWVmiIHqCb2OyS4HPKkpc6CIiiOa3Qmuoylxc5P2EkU3w+5eTSifI9SEZC88idAIGow==}
-    dev: false
-
-  /bitcoinjs-lib@5.2.0:
-    resolution: {integrity: sha512-5DcLxGUDejgNBYcieMIUfjORtUeNWl828VWLHJGVKZCb4zIS1oOySTUr0LGmcqJBQgTBz3bGbRQla4FgrdQEIQ==}
-    engines: {node: '>=8.0.0'}
-    dependencies:
-      bech32: 1.1.4
-      bip174: 2.1.1
-      bip32: 2.0.6
-      bip66: 1.1.5
-      bitcoin-ops: 1.4.1
-      bs58check: 2.1.2
-      create-hash: 1.2.0
-      create-hmac: 1.1.7
-      merkle-lib: 2.0.10
-      pushdata-bitcoin: 1.0.1
-      randombytes: 2.1.0
-      tiny-secp256k1: 1.1.6
-      typeforce: 1.18.0
-      varuint-bitcoin: 1.1.2
-      wif: 2.0.6
     dev: false
 
   /bitcoinjs-lib@6.1.5:
@@ -10887,6 +10778,7 @@ packages:
       inherits: 2.0.4
       minimalistic-assert: 1.0.1
       minimalistic-crypto-utils: 1.0.1
+    dev: true
 
   /emittery@0.13.1:
     resolution: {integrity: sha512-DeWwawk6r5yR9jFgnDKYt4sLS0LmHJJi3ZOnb5/JdbYwj3nW+FxQnHIjhBKz8YLC7oRNPVM9NQ47I3CVx34eqQ==}
@@ -16168,12 +16060,6 @@ packages:
   /pure-rand@6.1.0:
     resolution: {integrity: sha512-bVWawvoZoBYpp6yIoQtQXHZjmz35RSVHnUOTefl8Vcjr8snTPY1wnpSPMWekcFwbxI6gtmT7rSYPFvz71ldiOA==}
     dev: true
-
-  /pushdata-bitcoin@1.0.1:
-    resolution: {integrity: sha512-hw7rcYTJRAl4olM8Owe8x0fBuJJ+WGbMhQuLWOXEMN3PxPCKQHRkhfL+XG0+iXUmSHjkMmb3Ba55Mt21cZc9kQ==}
-    dependencies:
-      bitcoin-ops: 1.4.1
-    dev: false
 
   /qr.js@0.0.0:
     resolution: {integrity: sha512-c4iYnWb+k2E+vYpRimHqSu575b1/wKl4XFeJGpFmrJQz5I88v9aY2czh7s0w36srfCM1sXgC/xpoJz5dJfq+OQ==}

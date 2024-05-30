@@ -1,8 +1,8 @@
 "use client"
 
-import { useEffect } from 'react';
 import { ChakraProvider, useColorMode } from '@chakra-ui/react';
 import { PioneerProvider as PP } from "@coinmasters/pioneer-react"
+import { useEffect } from 'react';
 import { theme } from '../styles/theme';
 
 const ForceDarkMode = ({ children }: { children: React.ReactNode }) => {
